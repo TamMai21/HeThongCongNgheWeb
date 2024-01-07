@@ -1,0 +1,57 @@
+.body{
+    margin: 0;
+}
+.header, .menu, .section, .footer{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    border: 1px solid #000;
+}
+.header{
+    background-color: burlywood;
+    height: 100px;
+}
+.section{
+    background-color: rgb(99, 99, 181);
+    height: 400px;
+}
+.footer{
+    background-color: antiquewhite;
+    height: 100px;
+}
+.menu{
+    background-color: chocolate;
+    height: 100px;
+}
+.h1{
+    text-align: center;
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+/* layout2*/
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+}
+.nav2, .section2{
+    display: flex;
+    flex-basis: 30%;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    height: 400px;
+}
+.space{
+    height: 100px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    font-size: 30px;
+    font-style: italic;
+}
